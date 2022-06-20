@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+/*===== FONTS =====*/
+@font-face {
+  font-family: 'FiraSans-Regular';
+  src: url('./public/fonts/FiraSans-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'PT Sans Caption', sans-serif;
+  src: url('./public/fonts/PTSansCaption-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Caveat';
+  src: url('./public/fonts/Caveat-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'BIZ UDGothic', sans-serif;
+  src: url('./public/fonts/BIZUDGothic-Regular.ttf');
+}
+
+[x-cloak] {
+  display: none !important;
+}
+
+.hero {
+  width: 100%;
+  height: 100vh;
+  /* min-height: 850px; */
+  /* max-height: 850px; */
+  margin: auto;
+  background-color: red;
+  background-image: url('../images/jordan3.jpg');
+  /* background-blend-mode: multiply; */
+  background-position: center left;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  box-sizing: border-box;
+}
+
+
+
+
+
+
+
+

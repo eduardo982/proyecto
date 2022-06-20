@@ -1,0 +1,60 @@
+.textos p{
+    margin-bottom: 10px;
+  }
+  
+.container{
+    max-width: 90%;
+    margin: 60px auto;
+  }
+  
+.tenis{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .imagen{
+    width: 300px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+  }
+  
+  .producto{
+    position: relative;
+    margin-bottom: 30px;
+  }
+
+  /* BOTON */
+.boton{
+  padding: 10px;
+  border-radius: 5px;
+  color: #fff;
+  background-color: rgb(20, 148, 20);
+}
+
+.boton:hover{
+  background-color: rgba(20, 148, 20, .5);
+}
+
+.botones{
+  display: flex;
+  align-items: center;
+}
+
+/* WISH-LIST */
+.cursor:hover{
+  cursor: auto;
+}
+/* BOTON WHISLIST */
+.wish{
+  margin-left: 15px;
+  background-color: rgb(211, 23, 23);
+  padding: 5px;
+  border-radius: 5px;
+  color: #fff;
+}
+
+.wish:hover{
+  background-color: rgba(211, 23, 23, .5);
+}
